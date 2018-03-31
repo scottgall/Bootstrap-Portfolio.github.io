@@ -59,6 +59,9 @@ ul.nav a:hover {
 .social-container {
     padding: 0px;
 }
+#social-hr {
+    border-top: 1px solid #eee;
+}
 .social {
     background: #ffffff;
     margin: 0px 15px;
@@ -67,6 +70,11 @@ ul.nav a:hover {
 #about-me {
     color: #4aaaa5;
     font-size: 22px;
+}
+#connect-with-me {
+    color: #4aaaa5;
+    font-size: 16px;
+    margin-top: 26.4px;
 }
 .index-pic {
     width: 40%;
@@ -186,6 +194,9 @@ button:hover {
     }
     .pic-container {
         width: 28%;
+    }
+    #social-hr {
+        border-top: 1px solid #eee;
     }
  }
  @media only screen and (min-width : 992px) {
