@@ -144,6 +144,9 @@ button:hover {
         width: 50%;
         float: left;
     }
+    .pic-container {
+        width: 20%;
+    }
     .left {
         padding-right: 10px;
     }
@@ -160,7 +163,7 @@ button:hover {
     }
     .about-container {
         padding: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     .about {
         background: #ffffff;
@@ -181,7 +184,15 @@ button:hover {
         display: table;
         clear: both;
     }
+    .pic-container {
+        width: 28%;
+    }
  }
+ @media only screen and (min-width : 992px) {
+    .pic-container {
+        width: 22%;
+    }
+}
 
 
 
